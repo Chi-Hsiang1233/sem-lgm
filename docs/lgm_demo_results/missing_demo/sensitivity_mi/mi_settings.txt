@@ -1,0 +1,9 @@
+final=C:\Users\user\.claude\skills\sem-lgm\docs\lgm_demo_results\missing_demo\step2\chosen_fit.rds
+variables=t1,t2,t3,t4,aux
+aux=aux
+m=23
+seed=20261112
+maxit=10
+methods=t1:（無遺失）,t2:pmm,t3:pmm,t4:pmm,aux:（無遺失）
+estimator=MLR
+fixed.x=TRUE

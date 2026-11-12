@@ -1,0 +1,3 @@
+[嚴重] 負變異數（Heywood case）：t2
+[注意] post.check：lavaan->lav_object_post_check(): some estimated ov variances are negative
+[lavaan 警告] lavaan->lav_object_post_check(): some estimated ov variances are negative
