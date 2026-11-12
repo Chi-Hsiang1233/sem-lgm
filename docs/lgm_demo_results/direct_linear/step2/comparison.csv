@@ -1,0 +1,2 @@
+"model","chisq","df","pvalue","cfi","tli","rmsea","srmr","aic","bic","admissible","fit_verdict"
+"linear",8.118426,5,0.149829,0.998252,0.997903,0.039371,0.012117,5528.104109,5564.02729,TRUE,"良好"

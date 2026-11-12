@@ -1,0 +1,17 @@
+"case","status","seconds"
+"step1","OK",0.8
+"step2","OK",16.3
+"step3","OK",3.6
+"step3_interaction","OK",3.6
+"step4","OK",9.1
+"step5","OK",12.7
+"step6","OK",1
+"qmd","OK",0.3
+"missing_step1","OK",0.8
+"missing_step2","OK",17.8
+"missing_mi","OK",5.4
+"missing_x_step2","OK",17.5
+"missing_x_step3","OK",4.5
+"missing_x_mi","OK",10.9
+"direct_linear","OK",8.5
+"items_step1","OK",1.1

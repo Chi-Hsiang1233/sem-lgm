@@ -1,0 +1,4 @@
+form=linear
+reason=使用者於確認點 1 直接指定，未做形式比較
+compared=FALSE
+forms=linear

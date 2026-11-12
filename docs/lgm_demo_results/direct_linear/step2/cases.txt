@@ -1,0 +1,2 @@
+linear
+linear_equal_resid
