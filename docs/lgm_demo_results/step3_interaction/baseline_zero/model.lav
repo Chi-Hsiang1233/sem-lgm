@@ -1,0 +1,8 @@
+i =~ 1*t1 + 1*t2 + 1*t3 + 1*t4
+s =~ 0*t1 + 1*t2 + 2*t3 + 3*t4
+t1 ~~ theta*t1
+t2 ~~ theta*t2
+t3 ~~ theta*t3
+t4 ~~ theta*t4
+i ~ 0*x1 + 0*x2 + 0*x1_x_x2
+s ~ 0*x1 + 0*x2 + 0*x1_x_x2

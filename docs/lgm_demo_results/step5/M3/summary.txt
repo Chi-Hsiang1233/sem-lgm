@@ -1,0 +1,171 @@
+lavaan 0.7-3 ended normally after 36 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        18
+  Number of equality constraints                     4
+
+  Number of observations per group:                   
+    x2 高                                          200
+    x2 低                                          200
+  Number of missing patterns per group:               
+    x2 高                                            1
+    x2 低                                            1
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                                17.840      17.947
+  Degrees of freedom                                14          14
+  P-value (Chi-square)                           0.214       0.209
+  Scaling correction factor                                  0.994
+    Yuan-Bentler correction (Mplus variant)                       
+  Test statistic for each group:
+    x2 高                                        4.956       4.956
+    x2 低                                       12.991      12.991
+
+Model Test Baseline Model:
+
+  Test statistic                              1505.522    1626.282
+  Degrees of freedom                                12          12
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  0.926
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.997       0.998
+  Tucker-Lewis Index (TLI)                       0.998       0.998
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.997
+  Robust Tucker-Lewis Index (TLI)                            0.998
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -2683.907   -2683.907
+  Scaling correction factor                                  0.807
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)      -2674.987   -2674.987
+  Scaling correction factor                                  1.016
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                                5395.814    5395.814
+  Bayesian (BIC)                              5451.694    5451.694
+  Sample-size adjusted Bayesian (SABIC)       5407.271    5407.271
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.037       0.038
+  90 Percent confidence interval - lower         0.000       0.000
+  90 Percent confidence interval - upper         0.082       0.083
+  P-value H_0: RMSEA <= 0.050                    0.629       0.622
+  P-value H_0: RMSEA >= 0.080                    0.060       0.063
+                                                                  
+  Robust RMSEA                                               0.037
+  90 Percent confidence interval - lower                     0.000
+  90 Percent confidence interval - upper                     0.082
+  P-value H_0: Robust RMSEA <= 0.050                         0.630
+  P-value H_0: Robust RMSEA >= 0.080                         0.060
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.025       0.025
+
+Goodness of Fit Index:
+
+  Goodness of Fit Index (GFI)                    0.995            
+  90 Percent confidence interval - lower         0.977            
+  90 Percent confidence interval - upper         1.000            
+                                                                  
+  Robust GFI                                                 0.995
+  90 Percent confidence interval - lower                     0.977
+  90 Percent confidence interval - upper                     1.000
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+
+Group 1 [x2 高]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  i =~                                                                  
+    t1                1.000                               1.229    0.847
+    t2                1.000                               1.229    0.689
+    t3                1.000                               1.229    0.556
+    t4                1.000                               1.229    0.451
+  s =~                                                                  
+    t1                0.000                               0.000    0.000
+    t2                1.000                               0.625    0.350
+    t3                2.000                               1.249    0.565
+    t4                3.000                               1.874    0.688
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  i ~~                                                                  
+    s                 0.305    0.077    3.980    0.000    0.397    0.397
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    i                 1.189    0.099   12.040    0.000    0.967    0.967
+    s                 1.424    0.050   28.295    0.000    2.280    2.280
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .t1      (.p9.)    0.596    0.093    6.394    0.000    0.596    0.283
+   .t2      (.10.)    0.675    0.062   10.901    0.000    0.675    0.212
+   .t3      (.11.)    0.604    0.066    9.207    0.000    0.604    0.123
+   .t4      (.12.)    0.575    0.109    5.263    0.000    0.575    0.077
+    i                 1.511    0.215    7.030    0.000    1.000    1.000
+    s                 0.390    0.059    6.584    0.000    1.000    1.000
+
+R-Square:
+                   Estimate
+    t1                0.717
+    t2                0.788
+    t3                0.877
+    t4                0.923
+
+
+Group 2 [x2 低]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  i =~                                                                  
+    t1                1.000                               1.299    0.860
+    t2                1.000                               1.299    0.675
+    t3                1.000                               1.299    0.539
+    t4                1.000                               1.299    0.437
+  s =~                                                                  
+    t1                0.000                               0.000    0.000
+    t2                1.000                               0.651    0.338
+    t3                2.000                               1.302    0.540
+    t4                3.000                               1.954    0.657
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  i ~~                                                                  
+    s                 0.458    0.081    5.667    0.000    0.542    0.542
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    i                 0.041    0.103    0.395    0.693    0.031    0.031
+    s                 0.588    0.052   11.304    0.000    0.903    0.903
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .t1      (.p9.)    0.596    0.093    6.394    0.000    0.596    0.261
+   .t2      (.10.)    0.675    0.062   10.901    0.000    0.675    0.182
+   .t3      (.11.)    0.604    0.066    9.207    0.000    0.604    0.104
+   .t4      (.12.)    0.575    0.109    5.263    0.000    0.575    0.065
+    i                 1.689    0.196    8.605    0.000    1.000    1.000
+    s                 0.424    0.063    6.732    0.000    1.000    1.000
+
+R-Square:
+                   Estimate
+    t1                0.739
+    t2                0.818
+    t3                0.896
+    t4                0.935
+

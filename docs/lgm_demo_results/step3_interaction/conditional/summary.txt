@@ -1,0 +1,132 @@
+lavaan 0.7-3 ended normally after 28 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        15
+  Number of equality constraints                     3
+
+  Number of observations                           400
+  Number of missing patterns                         1
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                                13.292      13.138
+  Degrees of freedom                                14          14
+  P-value (Chi-square)                           0.504       0.516
+  Scaling correction factor                                  1.012
+    Yuan-Bentler correction (Mplus variant)                       
+
+Model Test Baseline Model:
+
+  Test statistic                              2212.028    2285.018
+  Degrees of freedom                                18          18
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  0.968
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000       1.000
+  Tucker-Lewis Index (TLI)                       1.000       1.000
+                                                                  
+  Robust Comparative Fit Index (CFI)                         1.000
+  Robust Tucker-Lewis Index (TLI)                            1.000
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -2541.667   -2541.667
+  Scaling correction factor                                  0.802
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)      -2535.021   -2535.021
+  Scaling correction factor                                  1.007
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                                5107.334    5107.334
+  Bayesian (BIC)                              5155.232    5155.232
+  Sample-size adjusted Bayesian (SABIC)       5117.155    5117.155
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.000       0.000
+  90 Percent confidence interval - lower         0.000       0.000
+  90 Percent confidence interval - upper         0.046       0.046
+  P-value H_0: RMSEA <= 0.050                    0.969       0.971
+  P-value H_0: RMSEA >= 0.080                    0.000       0.000
+                                                                  
+  Robust RMSEA                                               0.000
+  90 Percent confidence interval - lower                     0.000
+  90 Percent confidence interval - upper                     0.046
+  P-value H_0: Robust RMSEA <= 0.050                         0.969
+  P-value H_0: Robust RMSEA >= 0.080                         0.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.011       0.011
+
+Goodness of Fit Index:
+
+  Goodness of Fit Index (GFI)                    1.000            
+  90 Percent confidence interval - lower         0.992            
+  90 Percent confidence interval - upper         1.000            
+                                                                  
+  Robust GFI                                                 1.000
+  90 Percent confidence interval - lower                     0.992
+  90 Percent confidence interval - upper                     1.000
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  i =~                                                                  
+    t1                1.000                               1.389    0.869
+    t2                1.000                               1.389    0.663
+    t3                1.000                               1.389    0.512
+    t4                1.000                               1.389    0.409
+  s =~                                                                  
+    t1                0.000                               0.000    0.000
+    t2                1.000                               0.759    0.363
+    t3                2.000                               1.518    0.560
+    t4                3.000                               2.278    0.672
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  i ~                                                                   
+    x1                0.615    0.060   10.259    0.000    0.443    0.455
+    x2                0.614    0.061    9.995    0.000    0.442    0.425
+    x1_x_x2          -0.052    0.060   -0.867    0.386   -0.037   -0.037
+  s ~                                                                   
+    x1                0.265    0.030    8.953    0.000    0.349    0.358
+    x2                0.517    0.032   16.121    0.000    0.681    0.655
+    x1_x_x2          -0.023    0.030   -0.749    0.454   -0.030   -0.029
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+ .i ~~                                                                  
+   .s                 0.091    0.037    2.470    0.014    0.189    0.189
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .i                 0.625    0.061   10.298    0.000    0.450    0.450
+   .s                 1.009    0.029   34.699    0.000    1.329    1.329
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .t1      (thet)    0.622    0.030   21.011    0.000    0.622    0.244
+   .t2      (thet)    0.622    0.030   21.011    0.000    0.622    0.142
+   .t3      (thet)    0.622    0.030   21.011    0.000    0.622    0.085
+   .t4      (thet)    0.622    0.030   21.011    0.000    0.622    0.054
+   .i                 1.071    0.102   10.451    0.000    0.555    0.555
+   .s                 0.215    0.026    8.384    0.000    0.372    0.372
+
+R-Square:
+                   Estimate
+    t1                0.756
+    t2                0.858
+    t3                0.915
+    t4                0.946
+    i                 0.445
+    s                 0.628
+

@@ -1,0 +1,3 @@
+estimator=MLR
+missing=fiml
+fixed.x=FALSE

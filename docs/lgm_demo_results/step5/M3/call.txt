@@ -1,0 +1,5 @@
+estimator=MLR
+missing=fiml
+fixed.x=TRUE
+group=.grp
+group.equal=residuals

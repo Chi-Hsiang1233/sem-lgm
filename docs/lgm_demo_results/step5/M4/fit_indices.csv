@@ -1,0 +1,2 @@
+"n_obs","npar","chisq","df","pvalue","cfi","tli","rmsea","rmsea_lo","rmsea_hi","srmr","srmr_between","aic","bic","index_type"
+400,18,17.588258,10,0.062319,0.995042,0.994051,0.060836,0,0.107454,0.025545,,5403.383683,5475.230045,"robust"
