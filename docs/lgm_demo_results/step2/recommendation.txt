@@ -1,0 +1,4 @@
+form=linear
+reason=線性相對無成長：LRT p < .001（門檻 p < .05）→ 顯著改善；二次相對線性：LRT p = .248（門檻 p < .05）；BIC 支持線性，差 18.6（Raftery：非常強；採用二次的門檻是二次的 BIC 低至少 2）→ 沒有明顯改善
+compared=TRUE
+forms=none,linear,quad,basis

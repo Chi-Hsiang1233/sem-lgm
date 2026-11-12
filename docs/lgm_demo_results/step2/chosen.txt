@@ -1,0 +1,4 @@
+form=linear
+residuals=equal
+times=0,1,2,3
+anchor=0
