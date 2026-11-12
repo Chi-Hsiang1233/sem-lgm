@@ -1,0 +1,9 @@
+final=C:\Users\user\.claude\skills\sem-lgm\docs\lgm_demo_results\missing_x_demo\step3\conditional_fit.rds
+variables=t1,t2,t3,t4,x1,x2,aux
+aux=aux
+m=42
+seed=20261112
+maxit=10
+methods=t1:（無遺失）,t2:pmm,t3:pmm,t4:pmm,x1:pmm,x2:pmm,aux:（無遺失）
+estimator=MLR
+fixed.x=FALSE

@@ -1,0 +1,6 @@
+[嚴重] 負變異數（Heywood case）：t1
+[注意] 潛在相關 > .90：s~~q
+[注意] post.check：lavaan->lav_object_post_check(): some estimated ov variances are negative
+[注意] post.check：lavaan->lav_object_post_check(): covariance matrix of latent variables is not positive definite; use lavInspect(fit, "cov.lv") to investigate.
+[lavaan 警告] lavaan->lav_object_post_check(): some estimated ov variances are negative
+[lavaan 警告] lavaan->lav_object_post_check(): covariance matrix of latent variables is not positive definite; use lavInspect(fit, "cov.lv") to investigate.

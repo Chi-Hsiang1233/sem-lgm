@@ -1,0 +1,5 @@
+none
+linear
+quad
+basis
+linear_equal_resid

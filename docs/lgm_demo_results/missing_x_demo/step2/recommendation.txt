@@ -1,0 +1,4 @@
+form=linear
+reason=線性相對無成長：LRT p < .001（門檻 p < .05）→ 顯著改善；二次模型不可採用（見 diagnostics.txt）
+compared=TRUE
+forms=none,linear,quad,basis
